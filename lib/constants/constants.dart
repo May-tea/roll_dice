@@ -6,6 +6,9 @@ class AppConstants {
     Color.fromARGB(255, 68, 21, 149),
   ];
 
+  static const String appFontFamily = 'Lato';
+  static const Alignment gradientBeginAlignment = Alignment.topLeft;
+  static const Alignment gradientEndAlignment = Alignment.bottomRight;
   static const String imagepath = 'assets/images/dice-';
   static const String imageExtension = '.png';
   static const double imageWidth = 300.0;
