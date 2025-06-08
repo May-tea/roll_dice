@@ -6,7 +6,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'Lato'),
+      theme: ThemeData(fontFamily: AppConstants.appFontFamily),
       home: Scaffold(
         body: GradientContainer(colors: AppConstants.gradientColors),
       ),
